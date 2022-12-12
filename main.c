@@ -83,7 +83,7 @@ if (Delay_1 == 40)
 
 // (AI/1023) * (_XTAL_FREQ / (PWM Frequency * TMR2PRESCALE));
 // Use 75% as test PWM duty cycle setpoint.
-        DUTY_Scaled = ((float)768/1023)*(8000000/(200000*1));
+        DUTY_Scaled = ((float)256/1023)*(8000000/(200000*1));
 
 // Use AI as PWM duty cycle setpoint.
 //      DUTY_Scaled = ((float)AI_filt/1023)*(8000000/(200000*1));
